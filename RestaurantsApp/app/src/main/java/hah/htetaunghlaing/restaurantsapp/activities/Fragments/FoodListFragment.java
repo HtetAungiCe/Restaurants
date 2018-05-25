@@ -46,9 +46,9 @@ public class FoodListFragment extends Fragment {
         viewPager.setAdapter(mFoodListAdapter);
 
 
-        mFoodListAdapter.addTab("", new FoodContentFragment());
-        mFoodListAdapter.addTab("", new FoodContentFragment());
-        mFoodListAdapter.addTab("", new FoodContentFragment());
+        mFoodListAdapter.addTab("", new ItemFoodListFragment());
+        mFoodListAdapter.addTab("", new ItemFoodListFragment());
+        mFoodListAdapter.addTab("", new ItemFoodListFragment());
         /**
          * tablayout nae viewPager nae bind
          */
